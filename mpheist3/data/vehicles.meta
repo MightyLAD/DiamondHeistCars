@@ -417,15 +417,15 @@
       <animConvRoofName>null</animConvRoofName>
       <animConvRoofWindowsAffected />
       <ptfxAssetName>null</ptfxAssetName>
-      <audioNameHash>BATI</audioNameHash>
+      <audioNameHash />
       <layout>LAYOUT_BIKE_SPORT</layout>
-      <coverBoundOffsets>STRYDER_COVER_OFFSET_INFO</coverBoundOffsets>
+      <coverBoundOffsets>NIGHTBLADE_COVER_OFFSET_INFO</coverBoundOffsets>
       <explosionInfo>EXPLOSION_INFO_RAPTOR</explosionInfo>
       <scenarioLayout />
-      <cameraName>FOLLOW_CHEETAH_CAMERA</cameraName>
-      <aimCameraName>DEFAULT_THIRD_PERSON_VEHICLE_AIM_CAMERA</aimCameraName>
-      <bonnetCameraName>VEHICLE_BONNET_CAMERA_LOW_LOW</bonnetCameraName>
-      <povCameraName>BIKE_STRYDER_POV_CAMERA</povCameraName>
+      <cameraName>FOLLOW_BIKE_CAMERA</cameraName>
+      <aimCameraName>BIKE_AIM_CAMERA</aimCameraName>
+      <bonnetCameraName>BIKE_DEFILER_POV_CAMERA</bonnetCameraName>
+      <povCameraName>BIKE_DEFILER_POV_CAMERA</povCameraName>
       <FirstPersonDriveByIKOffset x="0.060000" y="-0.150000" z="-0.030000" />
       <FirstPersonDriveByUnarmedIKOffset x="0.000000" y="-0.100000" z="0.000000" />
 	  <FirstPersonProjectileDriveByIKOffset x="0.015000" y="-0.025000" z="-0.050000" />
@@ -483,8 +483,8 @@
       <frequency value="30" />
       <swankness>SWANKNESS_1</swankness>
       <maxNum value="5" />
-      <flags>FLAG_AVERAGE_CAR FLAG_POOR_CAR FLAG_IS_OFFROAD_VEHICLE FLAG_PEDS_INSIDE_CAN_BE_SET_ON_FIRE_MP FLAG_IS_QUADBIKE_USING_BIKE_ANIMATIONS</flags>
-      <type>VEHICLE_TYPE_QUADBIKE</type>
+      <flags>FLAG_AVERAGE_CAR FLAG_POOR_CAR FLAG_IS_OFFROAD_VEHICLE FLAG_PEDS_INSIDE_CAN_BE_SET_ON_FIRE_MP </flags>
+      <type>VEHICLE_TYPE_CAR</type>
       <plateType>VPT_BACK_PLATES</plateType>
       <dashboardType>VDT_RACE</dashboardType>      
       <vehicleClass>VC_MOTORCYCLE</vehicleClass>
@@ -500,12 +500,10 @@
       <requiredExtras />
       <rewards />
       <cinematicPartCamera>
-        <Item>WHEEL_FRONT_RIGHT_CAMERA</Item>
-        <Item>WHEEL_FRONT_LEFT_CAMERA</Item>
-        <Item>WHEEL_WIDE_REAR_RIGHT_CAMERA</Item>
-        <Item>WHEEL_WIDE_REAR_LEFT_CAMERA</Item>
+        <Item>WHEEL_REAR_LEFT_CAMERA</Item>
+        <Item>WHEEL_REAR_RIGHT_CAMERA</Item>
       </cinematicPartCamera>
-      <NmBraceOverrideSet />
+      <NmBraceOverrideSet>Bike</NmBraceOverrideSet>
       <buoyancySphereOffset x="0.000000" y="0.000000" z="0.000000" />
       <buoyancySphereSizeScale value="1.200000" />
       <pOverrideRagdollThreshold type="NULL" />
